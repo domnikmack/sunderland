@@ -1,0 +1,28 @@
+{
+  "title": "Sample Article Title",
+  "subtitle": "Sample Subtitle",
+  "images": [
+    ["images/photo01.jpg", "alt-text"],
+    ["images/photo02.jpg", "alt-text"]
+  ],
+  "video": {
+    "vidPath": "video/sample-vid_sm.mov",
+    "vidCaption": "video/sample-vid-caption.vtt",
+    "vidThumb": "video/sample-vid_tn.png"
+  },
+  "content": [
+    [
+      null,
+      "Ea nostrud sunt ea cillum cillum ea. Proident esse culpa reprehenderit nulla exercitation voluptate aliqua magna amet nulla. Consectetur ipsum nulla deserunt qui. Cupidatat ex sit cillum incididunt aliquip ex exercitation ipsum qui velit. Sint officia anim et duis. Veniam ullamco non commodo elit proident laborum duis non. In labore commodo dolor dolore dolore tempor ut voluptate ex. Minim elit cupidatat mollit quis. Ipsum pariatur nisi duis est officia ullamco sit. Consectetur consequat quis labore pariatur.",
+      "Veniam sint est fugiat sit consectetur enim ad aliquip do qui aute elit et. Ullamco commodo ullamco non incididunt. Ea eu aliqua duis eu aliquip eiusmod officia. Dolore anim nulla id est consectetur consectetur fugiat amet voluptate ex. Excepteur labore ad Lorem eiusmod ea ad. Velit consectetur mollit in sint in aliquip ut incididunt ea qui culpa. Consequat reprehenderit labore dolore ullamco nostrud consequat nulla exercitation pariatur.",
+      "Fugiat ipsum fugiat sit id voluptate quis veniam. Ex nostrud aliqua qui consequat. Tempor anim aliqua velit voluptate dolore mollit labore occaecat velit aute culpa et eiusmod. Et reprehenderit mollit id consequat. Dolor do sint reprehenderit irure sunt nulla mollit esse pariatur id commodo ex. Proident velit est consequat ea ipsum non. Veniam commodo duis consectetur culpa id enim nulla elit adipisicing excepteur ex labore.",
+      "Eu Lorem labore commodo deserunt ea velit ad deserunt mollit. Ad adipisicing labore proident nostrud reprehenderit quis veniam. Adipisicing sit officia et nulla nisi duis dolore. Deserunt deserunt incididunt enim pariatur non. Aute non amet incididunt ex minim Lorem nisi cillum quis elit duis do veniam. Anim adipisicing proident laborum ad ut elit esse excepteur fugiat veniam eu nisi officia. Consequat dolore minim anim laborum ullamco adipisicing minim Lorem dolore ipsum do ad officia reprehenderit. Minim aliquip excepteur mollit ea officia do eu laboris ea ad laborum. Consequat dolore laboris exercitation sunt tempor eiusmod sunt voluptate sit nostrud in commodo voluptate anim."
+    ],
+    [
+      "Sub-heading",
+      "Minim elit excepteur fugiat laboris et esse proident sint aliqua mollit adipisicing. Do et aliqua eu sint do aute voluptate sint consequat. Deserunt culpa est ex laboris. Nulla Lorem esse amet cillum irure nisi eu. Incididunt Lorem ut nisi voluptate aute cillum dolor exercitation. Eu excepteur dolore laboris consectetur. Irure non aute dolore esse sunt voluptate esse veniam magna.Occaecat reprehenderit eiusmod eiusmod excepteur anim fugiat est amet. Ipsum ipsum mollit irure aliqua. Dolor ullamco sint aliqua enim aute excepteur occaecat aliquip sint. Tempor ex non quis ex minim tempor sit veniam aute.",
+      "Eu exercitation reprehenderit voluptate amet aliqua officia velit proident. Eu pariatur excepteur enim voluptate incididunt elit laboris id velit in esse minim. Voluptate occaecat duis magna ad fugiat qui. Velit aute commodo incididunt enim sint non minim tempor qui nulla occaecat deserunt. Duis dolor deserunt aliqua sint irure consectetur minim reprehenderit duis velit. Est in sunt veniam veniam in minim sint aliqua culpa exercitation. Fugiat culpa non adipisicing sint excepteur commodo qui laboris excepteur qui duis sunt sint deserunt.Sunt qui ad esse aute laboris ullamco nostrud elit sint veniam occaecat. Nulla velit duis deserunt minim proident ad reprehenderit laborum ea exercitation. Cillum voluptate non occaecat fugiat irure anim qui id. Quis laboris consectetur voluptate ut aute nisi.",
+      "Aute laborum minim incididunt magna pariatur adipisicing tempor deserunt sunt elit reprehenderit. Esse in qui veniam id velit. Laborum anim duis cupidatat anim. Laborum tempor nostrud proident velit aliquip do pariatur cillum. Velit ut commodo aliquip non ad ut.Enim occaecat cillum occaecat est excepteur anim et velit consectetur enim do magna incididunt. Magna adipisicing occaecat deserunt esse amet exercitation amet velit est fugiat minim anim qui. Cillum anim cillum ad et ea."
+    ]
+  ]
+}

@@ -1,0 +1,54 @@
+.masonry-tile {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49%;
+  margin-top: 36px;
+  padding: 1em;
+  border: solid 1px rgb(51, 51, 51);
+}
+
+.masonry-tile h2 {
+  font-size: 25pt;
+  font-weight: 700;
+}
+
+.masonry-tile img {
+  border: solid 1px rgb(51, 51, 51);
+  width: 100%;
+}
+
+.masonry-beam {
+  width: 20%;
+  height: 0.4em;
+  background-color: rgb(223,70,97);
+}
+
+.masonry-tile p:last-of-type {
+  margin-top: 1em;
+}
+
+.column-left {
+  float: left;
+}
+
+.column-right {
+  float: right;
+}
+
+.masonry main {
+  overflow: auto;
+}
+
+.below-tiles {
+  width: 960px;
+  padding-bottom: 36px;
+}
+
+.load-more-btn {
+  display: block;
+  padding: 18px 36px;
+  margin: 36px auto 0 auto;
+  font-size: 18pt;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+}
