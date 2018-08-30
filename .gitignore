@@ -7,6 +7,10 @@
 # production
 /build
 
+# unoptimized media
+/public/images
+/public/video
+
 # misc
 .DS_Store
 .env.local
