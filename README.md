@@ -2,7 +2,10 @@
 
 ## Run The App:
 
+Make sure node and npm are installed.
+
 ```
+git clone https://github.com/domnikmack/sunderland.git
 cd sunderland
 npm i
 npm run start
