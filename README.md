@@ -2,7 +2,7 @@
 
 ## Run The App:
 
-Make sure node and npm are installed.
+Make sure Node.js and npm are installed.
 
 ```
 git clone https://github.com/domnikmack/sunderland.git
