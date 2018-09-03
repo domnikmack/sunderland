@@ -8,7 +8,7 @@
   "video": {
     "vidPath": "video/sample-vid_sm.mov",
     "vidCaption": "video/sample-vid-caption.vtt",
-    "vidThumb": "video/sample-vid_tmb.png"
+    "vidThumb": "video/sample-vid_tmb.jpg"
   },
   "content": [
     [
