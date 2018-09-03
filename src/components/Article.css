@@ -47,3 +47,11 @@ img {
   margin: 0 -2em 2em 2em;
   padding-top: 18px;
 }
+
+.video-container h3 {
+  font-size: 1em;
+}
+
+.video-container figcaption {
+  font-size: .8em;
+}

@@ -63,16 +63,16 @@ class Article extends Component {
 function Content({ content, video }) {
   return content.map((text, i) => {
     return text.map((el, j) => {
-      if (!j && el) return <h2>{el}</h2>;
+      if (!j && el) return <h2 key={`${i}-${j}`}>{el}</h2>;
       if (i === 0 && j === 1) {
         return (
-          <div style={{ verticalAlign: 'top' }}>
+          <div style={{ verticalAlign: 'top' }} key={`${i}-${j}`}>
             <p>{el}</p>
             <Video video={video} />
           </div>
         );
       }
-      return <p>{el}</p>;
+      return <p key={`${i}-${j}`}>{el}</p>;
     });
   });
 }
@@ -89,9 +89,10 @@ function Video({ video }) {
         playsInline
         poster={vidThumb}
       >
-        <track default kind="captions" srclang="en" src={vidCaption} />
+        <track default kind="captions" srcLang="en" src={vidCaption} />
       </video>
-      <figcaption>Some Video info</figcaption>
+      <h3>Some Video info</h3>
+      <figcaption>video caption for some stuff</figcaption>
     </figure>
   );
 }
