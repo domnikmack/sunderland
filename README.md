@@ -11,8 +11,7 @@ npm i
 npm run start
 ```
 
-This runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+This runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Test
 ```
