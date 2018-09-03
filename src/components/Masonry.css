@@ -7,9 +7,15 @@
   border: solid 1px rgb(51, 51, 51);
 }
 
-.masonry-tile h2 {
+.masonry a {
+  text-decoration: none;
+  color: rgb(51, 51, 51)
+}
+
+.masonry-tile h2 a {
   font-size: 25pt;
   font-weight: 700;
+
 }
 
 .masonry-tile img {

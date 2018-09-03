@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import sample from '../test-content/sample-article.json';
+import './Article.css';
 
 class Article extends Component {
   constructor(props) {
@@ -40,7 +41,7 @@ class Article extends Component {
                   return (
                     <img
                       key={i}
-                      src={thumb[0]}
+                      src={`${thumb[0].slice(0, -4)}_tmb${thumb[0].slice(-4)}`}
                       alt={thumb[1]}
                       onClick={() => this.selectImage(i)}
                     />

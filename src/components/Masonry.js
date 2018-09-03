@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Masonry.css';
 import data from '../test-content/masonry-data.json';
 
@@ -36,7 +37,7 @@ export default class Masonry extends Component {
       <div className="masonry">
         <main>
           {tiles.map((tile, i) => (
-            <Tile tile={tile} index={i} />
+            <Tile tile={tile} index={i} key={tile.heading} />
           ))}
         </main>
 
@@ -53,19 +54,20 @@ export default class Masonry extends Component {
 function Tile({ tile, index }) {
   const { image, heading, content, meta } = tile;
   return (
-    <div
+    <Link
+      to="/article"
       className={
         'masonry-tile ' + (index % 2 === 0 ? 'column-left' : 'column-right')
       }
     >
       {image.length > 0 ? (
-        <img src={image} />
+        <img src={image} alt="" />
       ) : (
         <div className="masonry-beam" />
       )}
       <h2>{heading}</h2>
       <p>{content}</p>
       <p>{meta}</p>
-    </div>
+    </Link>
   );
 }
